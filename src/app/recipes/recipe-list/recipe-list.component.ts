@@ -7,7 +7,9 @@ import { Recipe } from '../recipe.model';
   styleUrls: ['./recipe-list.component.css']
 })
 export class RecipeListComponent implements OnInit {
-  recipes:Recipe[] = [
+  recipes: Recipe[] = [
+    // tslint:disable-next-line: max-line-length
+    new Recipe('A Test Recipe', 'This is simply a recipe', 'https://assets.bonappetit.com/photos/57ae3e611b33404414975c0d/1:1/w_414,h_414,c_limit/roasted-chicken-thighs-with-lemon-and-oregano.jpg'),
     new Recipe('A Test Recipe', 'This is simply a recipe', 'https://assets.bonappetit.com/photos/57ae3e611b33404414975c0d/1:1/w_414,h_414,c_limit/roasted-chicken-thighs-with-lemon-and-oregano.jpg')
   ];
 
