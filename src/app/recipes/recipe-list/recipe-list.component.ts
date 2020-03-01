@@ -8,9 +8,8 @@ import { Recipe } from '../recipe.model';
 })
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
-    // tslint:disable-next-line: max-line-length
-    new Recipe('A Test Recipe', 'This is simply a recipe', 'https://assets.bonappetit.com/photos/57ae3e611b33404414975c0d/1:1/w_414,h_414,c_limit/roasted-chicken-thighs-with-lemon-and-oregano.jpg'),
-    new Recipe('A Test Recipe', 'This is simply a recipe', 'https://assets.bonappetit.com/photos/57ae3e611b33404414975c0d/1:1/w_414,h_414,c_limit/roasted-chicken-thighs-with-lemon-and-oregano.jpg')
+    new Recipe('A Test Recipe', 'This is simply a test', 'https://upload.wikimedia.org/wikipedia/commons/1/15/Recipe_logo.jpeg'),
+    new Recipe('A Test Recipe', 'This is simply a test', 'https://upload.wikimedia.org/wikipedia/commons/1/15/Recipe_logo.jpeg')
   ];
 
   constructor() { }
